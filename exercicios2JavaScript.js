@@ -296,6 +296,17 @@ function jogoParOuImpar(){
     }
 }
 
+function jogoParOuImpar(){
+    let apostaUsuario = prompt("Escolha par (0) ou ímpar (1)")
+    let apostaComputador = console.log(Math.floor(Math.random()*10))
+    if (apostaUsuario == "par" || apostaUsuario == "Par" || apostaUsuario == "PAR"){
+        if (apostaComputador == 0){
+            return "x"
+        } else {
+            return "y"
+        }
+}
+
 //13. Construa a logica do menu de clientes de um site
 // caso o cliente seja perfil clássico, apresente uma ul
 // contendo nos li os itens terno, blazer, camisa,calça. Caso
