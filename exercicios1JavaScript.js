@@ -13,20 +13,21 @@ let mesaDoCliente = prompt("Qual o número da sua mesa?")
 let contaFinal = 0
 
 function somarPedidoAoTotal (valorPedido){
-return contaFinal += valorPedido}
+    return contaFinal += valorPedido
+}
 
 function subtrairDoTotal(valorPago){
-return contaFinal -= valorPago
+    return contaFinal -= valorPago
 }
 
 let pessoasNaMesa = 4
 
 function dividirContaFinal (){
-return contaFinal/pessoasNaMesa
+    return contaFinal/pessoasNaMesa
 }
 
 function mostrarInfos(){
-return console.log("Seu nome é", nomeCliente + ", sua mesa é", mesaDoCliente + ", há", pessoasNaMesa, "pessoas na mesa" + ", a conta final deu R$", contaFinal + " e ficou R$", divideContaFinal(), "para cada um.")
+    return console.log("Seu nome é", nomeCliente + ", sua mesa é", mesaDoCliente + ", há", pessoasNaMesa, "pessoas na mesa" + ", a conta final deu R$", contaFinal + " e ficou R$", divideContaFinal(), "para cada um.")
 }
 
 //Escreva a função que retorne o resultado apresentado
@@ -67,7 +68,7 @@ function numeroEhMaior(x){
     let randomico = Math.floor((Math.random())*100)
     console.log(x + " é maior que " + randomico)
     return x > (randomico)
-    }
+}
 
 // Escreva uma função em
 // Javascript que recebe um
@@ -83,7 +84,7 @@ function representacaoBinaria(x){
 
 function restoDaDivisao(x,y){
     return x%y
-    }
+}
 
 // Escreva uma função em Javascript
 // que vai checar se duas ou mais strings

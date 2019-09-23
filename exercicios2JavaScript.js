@@ -284,33 +284,6 @@ if (opcaoUsuario == "par" && resultadoPar == true){
     console.log("Você perdeu!")
 }
 
-// ou (a terminar ainda)
+// ---
 
-function jogoParOuImpar(){
-    let apostaUsuario = prompt("Digite um número de 0 a 9")
-    let apostaComputador = console.log(Math.floor(Math.random()*10))
-    if ((apostaUsuario + apostaComputador)%2 == 0 && apostaUsuario%2 == 0 || (apostaUsuario + apostaComputador)%2 != 0 && apostaUsuario%2 != 0){
-        return "Você ganhou!"
-    } else {
-        return "Você perdeu!"
-    }
-}
-
-function jogoParOuImpar(){
-    let apostaUsuario = prompt("Escolha par (0) ou ímpar (1)")
-    let apostaComputador = console.log(Math.floor(Math.random()*10))
-    if (apostaUsuario == "par" || apostaUsuario == "Par" || apostaUsuario == "PAR"){
-        if (apostaComputador == 0){
-            return "x"
-        } else {
-            return "y"
-        }
-}
-
-//13. Construa a logica do menu de clientes de um site
-// caso o cliente seja perfil clássico, apresente uma ul
-// contendo nos li os itens terno, blazer, camisa,calça. Caso
-// o cliente seja do perfil esportivo mostre os itens: camisetas,
-// short, bermudas, moleton. Caso o cliente não informe o perfil, 
-// mostre todas as opções
 

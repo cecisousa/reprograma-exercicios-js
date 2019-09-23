@@ -10,7 +10,7 @@ for (let i = 10; i >= 0; i -= 2){
     console.log(i)
     }
 
-// Crie um  algoritmo contador de passos que acumule os valores de passos informados pelo usuário até que a meta seja atingida ( a meta é 1000 passos)
+// Crie um  algoritmo contador de passos que acumule os valores de passos informados pelo usuário até que a meta seja atingida (a meta é 1000 passos)
 
 let meta = 0
 
@@ -117,7 +117,7 @@ console.log("Cara:", cara, "Coroa:", coroa)
 // mostre a mensagem 'Seja bemvindo, <convidado>!'
 //listaConvidados = ['Alice','João','Maria Rita', 'Sueli','Carlos'] 
 
-// versão com números:
+// exemplo simples com números:
 
 let listaNumeros = [1, 2, 3, 4, 5]
 
